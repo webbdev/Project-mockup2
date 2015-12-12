@@ -1,0 +1,127 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0 auto;
+}
+
+/* Header */
+#header {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.img-circle {
+	margin-top: 25px;
+}
+
+.title-super {
+    font-size: 56px;
+    color: #131a2d;
+    font-weight: 900;
+    margin-top: 35px;
+    margin-bottom: 0;
+    padding-right: 10px;
+    letter-spacing: 4.1px;
+}
+
+h4 {
+    color: #131a2d;
+    margin-top: 6px;
+    padding-right: 10px;
+    letter-spacing: 2.7px;
+}
+
+hr {
+    border: 2px solid #d0c4ab;
+    margin-top: 10px;
+    padding: 0;
+    margin-bottom: 14px;
+}
+
+/* Main image */
+#main {
+    background: #131a2d;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 950px; 
+}
+
+#main img {
+    margin-top: 18px;
+}
+
+/* Featured Work */
+#works {
+    background: #131a2d;
+    max-width: 950px;
+    padding-bottom: 40px;
+}
+
+#text-muted {
+    color: #d0c4ab;
+    margin-top: 43px;
+    text-align: left;
+    padding-left: 15px;
+    letter-spacing: 5px;
+    font-size: 33px;
+}
+
+.thumbnail {
+    padding: 8px 5px 15px;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.thumbnail h1 {
+    color: #d0c4ab;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+a {
+    color: #d0c4ab;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #d0c4ab;
+}
+
+@media only screen and (max-width: 768px) {
+    #works {
+        padding-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    #works {
+        padding-bottom: 10px;
+    } 
+
+    .title-super {
+        margin-top: 0;
+    }
+
+    .img-circle {
+        margin-top: 10px;
+    }
+
+    a {
+        font-size: 15px;
+    }
+}
