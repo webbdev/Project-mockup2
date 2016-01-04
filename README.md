@@ -1,5 +1,5 @@
 ###Portfolio Mockup to HTML. Responsive Design.
-This is additional project for Udacity Front-End Web Developer Nanodegree.
+This is Udacity Front-End Web Developer Nanodegree additional project.
 
 Developed a personal portfolio page using HTML, CSS, and the Bootstrap framework. The page is fully responsive and works on mobile, tablet, 
 and desktop browsers.
